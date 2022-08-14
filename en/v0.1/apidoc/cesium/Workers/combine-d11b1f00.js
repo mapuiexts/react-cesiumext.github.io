@@ -1,0 +1,2 @@
+/*! For license information please see combine-d11b1f00.js.LICENSE.txt */
+define(["exports","./defaultValue-97284df2"],(function(t,n){"use strict";t.combine=function e(t,o,f){f=n.defaultValue(f,!1);const r={},i=n.defined(t),a=n.defined(o);let d,s,u;if(i)for(d in t)t.hasOwnProperty(d)&&(s=t[d],a&&f&&"object"==typeof s&&o.hasOwnProperty(d)?(u=o[d],r[d]="object"==typeof u?e(s,u,f):s):r[d]=s);if(a)for(d in o)o.hasOwnProperty(d)&&!r.hasOwnProperty(d)&&(u=o[d],r[d]=u);return r}}));
