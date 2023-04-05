@@ -25,13 +25,13 @@ npm install craco-cesium --save
 npm install cesium --save
 ```
 
-### 5. Install React-CesiumExt
+### 6. Install React-CesiumExt
 
 ```sh
 npm install @mapuiexts/react-cesiumext --save
 ```
 
-### 6. Rewrite npm scripts
+### 7. Rewrite npm scripts
 
 Rewrite npm scripts in `package.json` as following:
 
@@ -48,7 +48,7 @@ Rewrite npm scripts in `package.json` as following:
 }
 ```
 
-### 4. Create craco config file
+### 8. Create craco config file
 
 Create `craco.config.js` in the project root:
 
@@ -62,7 +62,7 @@ module.exports = {
 };
 ```
 
-### 5. Congratulations! 🎉
+### 9. Congratulations! 🎉
 
 Set up is complete!
 

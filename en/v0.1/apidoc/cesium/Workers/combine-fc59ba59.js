@@ -1,2 +1,0 @@
-/*! For license information please see combine-fc59ba59.js.LICENSE.txt */
-define(["exports","./defaultValue-4607806f"],(function(t,n){"use strict";t.combine=function e(t,o,f){f=n.defaultValue(f,!1);const r={},i=n.defined(t),a=n.defined(o);let s,u,c;if(i)for(s in t)t.hasOwnProperty(s)&&(u=t[s],a&&f&&"object"==typeof u&&o.hasOwnProperty(s)?(c=o[s],r[s]="object"==typeof c?e(u,c,f):u):r[s]=u);if(a)for(s in o)o.hasOwnProperty(s)&&!r.hasOwnProperty(s)&&(c=o[s],r[s]=c);return r}}));

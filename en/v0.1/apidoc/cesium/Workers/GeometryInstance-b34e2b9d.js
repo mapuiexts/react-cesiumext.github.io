@@ -1,2 +1,0 @@
-/*! For license information please see GeometryInstance-b34e2b9d.js.LICENSE.txt */
-define(["exports","./defaultValue-4607806f","./RuntimeError-cef79f54","./Matrix2-21f90abf"],(function(e,t,i,r){"use strict";e.GeometryInstance=function(e){e=t.defaultValue(e,t.defaultValue.EMPTY_OBJECT),this.geometry=e.geometry,this.modelMatrix=r.Matrix4.clone(t.defaultValue(e.modelMatrix,r.Matrix4.IDENTITY)),this.id=e.id,this.pickPrimitive=e.pickPrimitive,this.attributes=t.defaultValue(e.attributes,{}),this.westHemisphereGeometry=void 0,this.eastHemisphereGeometry=void 0}}));
